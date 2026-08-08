@@ -1,6 +1,6 @@
 # Reto Práctico Semana 1: Control de Versiones y Maquetación Básica
 
-**Hola, José Ángel.**[cite: 1]
+**Hola, José Ángel.**
 
 Para cerrar tu primera semana de aprendizaje, realizaremos un ejercicio práctico asincrónico. El objetivo de este reto es simular el flujo de trabajo real que utilizamos todos los días en Oryon, combinando el control de versiones con tus bases de desarrollo web.
 
@@ -11,7 +11,7 @@ Tómate el tiempo necesario para leer cuidadosamente las instrucciones, investig
 ## 🎯 El Escenario
 He preparado un repositorio base para ti en GitHub. Este proyecto contiene una estructura inicial muy sencilla, con un archivo `index.html` y un archivo `style.css` esperando ser editados.
 
-🔗 **Enlace del repositorio:** `[Inserta aquí el enlace de tu repositorio de prueba]`
+🔗 **Enlace del repositorio:** `https://github.com/oryon-dev/intern-test`
 
 ---
 
