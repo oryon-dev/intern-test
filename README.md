@@ -6,6 +6,7 @@ Para cerrar tu primera semana de aprendizaje, realizaremos un ejercicio práctic
 
 Tómate el tiempo necesario para leer cuidadosamente las instrucciones, investigar en la documentación si tienes dudas y aplicar lo que estudiaste a lo largo de la semana.
 
+Nota: Pese a que el reto incluye parte de programación web, en esta ocasión nos centramos solo en evaluar git, por lo que la programación web solo es un plus que no entra como prioridad pero es deseable.
 ---
 
 ## 🎯 El Escenario

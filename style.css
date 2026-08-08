@@ -1,0 +1,29 @@
+/* Reseteo básico para homogeneizar los navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Un color de fondo suave para que la tarjeta resalte */
+  background-color: #f4f4f5;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+
+  /* PISTA: Puedes usar Flexbox o Grid aquí mismo en el body 
+       para lograr centrar tu tarjeta en toda la pantalla */
+  min-height: 100vh;
+}
+
+/* 
+  =========================================
+  Escribe debajo de esta línea tus estilos
+  =========================================
+  Requisitos mínimos de tu tarjeta:
+  - Centrada vertical y horizontalmente.
+  - Bordes redondeados.
+  - Buen contraste de colores (fondo vs texto).
+*/
