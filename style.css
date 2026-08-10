@@ -1,29 +1,44 @@
-/* Reseteo básico para homogeneizar los navegadores */
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  /* Un color de fondo suave para que la tarjeta resalte */
-  background-color: #f4f4f5;
-  font-family:
-    system-ui,
-    -apple-system,
-    sans-serif;
-
-  /* PISTA: Puedes usar Flexbox o Grid aquí mismo en el body 
-       para lograr centrar tu tarjeta en toda la pantalla */
-  min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #e8eaf6;
 }
 
-/* 
-  =========================================
-  Escribe debajo de esta línea tus estilos
-  =========================================
-  Requisitos mínimos de tu tarjeta:
-  - Centrada vertical y horizontalmente.
-  - Bordes redondeados.
-  - Buen contraste de colores (fondo vs texto).
-*/
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-card h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile-card p {
+    color: #555;
+    line-height: 1.5;
+}
