@@ -1,60 +1,52 @@
-# Reto Práctico Semana 1: Control de Versiones y Maquetación Básica
+# Reto Práctico Semana 2: JavaScript y Manipulación del DOM
 
-**Hola, José Ángel.**
+**Hola, José Ángel. ¡Felicidades por completar tu primer Pull Request con éxito!**
 
-Para cerrar tu primera semana de aprendizaje, realizaremos un ejercicio práctico asincrónico. El objetivo de este reto es simular el flujo de trabajo real que utilizamos todos los días en Oryon, combinando el control de versiones con tus bases de desarrollo web.
-
-Tómate el tiempo necesario para leer cuidadosamente las instrucciones, investigar en la documentación si tienes dudas y aplicar lo que estudiaste a lo largo de la semana.
-
-Nota: Pese a que el reto incluye parte de programación web, en esta ocasión nos centramos solo en evaluar git, por lo que la programación web solo es un plus que no entra como prioridad pero es deseable.
----
-
-## 🎯 El Escenario
-He preparado un repositorio base para ti en GitHub. Este proyecto contiene una estructura inicial muy sencilla, con un archivo `index.html` y un archivo `style.css` esperando ser editados.
-
-🔗 **Enlace del repositorio:** `https://github.com/oryon-dev/intern-test`
+Esta semana damos el siguiente paso. Ya tenemos la estructura (HTML) y el diseño (CSS) de tu tarjeta; ahora vamos a darle vida e interactividad usando **JavaScript**.
 
 ---
 
-## 📝 Instrucciones Paso a Paso
+## 🎯 Tu Misión para la Semana 2
+Quiero que agregues un botón a tu tarjeta de presentación que, al hacerle clic, cambie los colores de toda la tarjeta a un **"Modo Oscuro"** (fondo oscuro, letras claras), y que si le vuelves a dar clic, regrese al modo claro original.
 
-### Paso 1: Clonar el Repositorio
-Usa la terminal para descargar el proyecto desde GitHub hacia tu computadora local.
-
-### Paso 2: Crear tu Rama de Trabajo
-Como regla de oro en el desarrollo en equipo, nunca trabajamos directamente sobre la rama principal (`main`). 
-* Crea una nueva rama llamada `feature/perfil-jose` y muévete a ella para comenzar a escribir tu código.
-
-### Paso 3: El Reto de Maquetación (HTML y CSS)
-Abre el proyecto en tu editor de código (como Visual Studio Code) y construye una **Tarjeta de Presentación Digital (Profile Card)**.
-* **En el HTML (`index.html`):** Construye una estructura utilizando etiquetas semánticas. La tarjeta debe contener: tu nombre, una breve descripción tuya y una fotografía (puede ser un *placeholder* o imagen de prueba si lo prefieres).
-* **En el CSS (`style.css`):** Dale formato a tu tarjeta para que luzca profesional. Los requisitos mínimos son:
-  * La tarjeta debe estar **centrada** tanto vertical como horizontalmente en la pantalla.
-  * Debe contar con bordes redondeados.
-  * Los colores elegidos deben tener un buen contraste visual (fondo vs. texto).
-
-### Paso 4: Registrar tus Cambios (Add & Commit)
-Una vez que tu tarjeta esté lista y funcionando correctamente:
-* Prepara tus archivos modificados.
-* Crea un *commit*. **Importante:** En Oryon utilizamos el estándar de **Conventional Commits** para mantener nuestro historial limpio y organizado. Asegúrate de estructurar tu mensaje siguiendo este formato. Por ejemplo: 
-  * `feat: maqueta estructura inicial y estilos de la tarjeta`
-  * `docs: agrega descripcion al readme`
-
-### Paso 5: Subir tu Trabajo (Push)
-Sube tu rama local (`feature/perfil-jose`) al repositorio remoto en la nube (GitHub).
-
-### Paso 6: Crear el Pull Request (PR)
-Ingresa a la página del repositorio en GitHub y abre un *Pull Request* desde tu rama hacia la rama `main`. 
-
-💡 **Pistas para un PR exitoso:**
-* **Título y Descripción:** Un PR profesional no consiste solo en subir el código. Asegúrate de ponerle un título descriptivo y aprovecha la caja de comentarios para explicar brevemente qué cambios realizaste, qué enfoque usaste para centrar la tarjeta y si te enfrentaste a alguna dificultad durante el proceso.
-* **Asignación de Revisor:** Para mantener nuestro flujo de trabajo ordenado, es indispensable que alguien apruebe los cambios. En el panel derecho de la pantalla de tu PR, busca la sección de **Reviewers** (Revisores) y agrégame a mí para que el sistema me notifique que tu código está listo para evaluación.
+Para lograr esto, deberás investigar y aplicar los siguientes conceptos base de JavaScript:
+* **Variables:** La diferencia y uso de `let` y `const`.
+* **Funciones:** Cómo crear bloques de código que ejecuten acciones.
+* **Selección del DOM:** Cómo atrapar un elemento de tu HTML desde tu archivo JavaScript (investiga sobre `document.querySelector`).
+* **Eventos:** Cómo detectar cuándo el usuario hace clic en el botón (investiga sobre `addEventListener`).
+* **Clases de CSS:** Cómo inyectarle o quitarle una clase de estilos a tu tarjeta usando JavaScript (investiga sobre `classList.toggle`).
 
 ---
 
-## 🚀 Entregable
-Cuando hayas completado el Paso 6 y me hayas asignado como revisor, envíame un mensaje con el **enlace directo a tu Pull Request**.
+## 📚 Recurso de Estudio
+Para entender cómo conectar JavaScript con tu HTML de forma sencilla, te sugiero revisar este material:
 
-Revisaré tu código, la estructura de tu rama y tus mensajes de commit, y te dejaré mis comentarios técnicos directamente en GitHub.
+- [ Introducción a la programación con JavaScript](https://www.youtube.com/watch?v=Z34BF9PCfYg)
+- [Lista de reproducción - Curso de JavaScript - TodoCode](https://www.youtube.com/watch?v=x5YUu0eUc8s&list=PLQxX2eiEaqbwnzKnmqHDl0rkRvp_T7Q_W)
 
-¡Mucho éxito! Recuerda que investigar en Google o revisar la documentación cuando sale un error es parte del día a día del desarrollador.
+> Nota: Recuerda que los recusos solo son sugerencias de parte mía, puedes usar los recursos que encuentres o mas te agraden. De igual forma recuerda que no es necesario verlo de principio a fin, siempre prioriza la practica y ver lo que realmente te vaya a servir (sin olvidarte de los conceptos base).
+---
+
+## 🛠️ Instrucciones y Flujo de Trabajo
+
+### Paso 1: Actualizar tu entorno local
+Mueve tu consola a la rama principal (`main`) y asegúrate de descargar los últimos cambios aprobados usando `git pull origin main`.
+
+### Paso 2: Crear tu nueva rama de trabajo
+Crea una nueva rama específica para este reto llamada `feature/dark-mode` y muévete a ella.
+
+### Paso 3: El Código
+* Agrega la etiqueta de un botón en tu archivo `index.html`.
+* Crea un nuevo archivo llamado `script.js` y enlázalo a tu HTML (usando la etiqueta `<script>`).
+* **💡 Pista de arquitectura:** La forma más limpia de lograr esto no es cambiando los colores uno por uno en JS. Lo ideal es crear una clase (por ejemplo, `.dark-theme`) en tu archivo `style.css` que contenga los colores oscuros, y utilizar JavaScript únicamente para agregar o quitar esa clase de tu HTML.
+
+### Paso 4: Registrar y Subir (Conventional Commits)
+* Una vez que funcione, prepara tus archivos y crea un *commit* recordando nuestro estándar de la agencia. Por ejemplo: `feat: agrega boton y logica de modo oscuro`.
+* Sube tu rama al repositorio remoto (`git push`).
+
+### Paso 5: El Entregable (Pull Request)
+Abre un nuevo **Pull Request** hacia `main`. Ponle un título claro, descríbeme brevemente en los comentarios cómo solucionaste la lógica del botón, y **asígname como revisor**. 
+
+Cuando hayas terminado, envíame el enlace directo de tu PR por mensaje. 
+
+¡Mucho éxito! Tómate tu tiempo para entender la lógica de la programación y avísame si la consola te marca algún error para destrabarte.
