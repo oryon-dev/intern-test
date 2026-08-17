@@ -42,3 +42,26 @@ main {
     color: #555;
     line-height: 1.5;
 }
+
+.profile-card.dark-theme {
+    background-color: #222;
+    color: white;
+}
+
+.profile-card.dark-theme h1 {
+    color: white;
+}
+
+.profile-card.dark-theme p {
+    color: #ddd;
+}
+
+#dark-mode-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
